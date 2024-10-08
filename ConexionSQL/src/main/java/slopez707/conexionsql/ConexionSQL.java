@@ -57,7 +57,7 @@ public class ConexionSQL {
            
             //System.out.println(list_articulos);
             for (String[] fila : list_articulos) {
-                System.out.println("Id: " + fila[0] 
+                System.out.println("Id1: " + fila[0] 
                         + ", Nombre: " + fila[1].trim() //trim sirve para eliminar espacios 
                         + ", Precio: " + fila[2] 
                         + ", Descuento: " + fila[3] 
